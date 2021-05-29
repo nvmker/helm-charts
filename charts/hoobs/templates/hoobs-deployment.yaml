@@ -36,6 +36,7 @@ spec:
             - mountPath: /hoobs
               name: hoobs-claim0
       restartPolicy: Always
+      hostNetwork: true
       volumes:
         - name: hoobs-claim0
           persistentVolumeClaim:
