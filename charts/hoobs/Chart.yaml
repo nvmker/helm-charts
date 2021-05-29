@@ -1,0 +1,19 @@
+---
+apiVersion: v2
+appVerson: 3.3.5
+version: 0.0.1
+name: hoobs
+description: Build your Smart Home with HOOBS. Connect over 2,000 Accessories to your favorite Ecosystem.
+type: application
+home: "https://github.com/nvmker/helm-charts/tree/main/charts/hoobs"
+icon: "https://hoobs.org/wp-content/uploads/2019/09/icon-o.png"
+dependencies: null
+keywords:
+  - hoobs
+  - homekit
+maintainers:
+  - name: nvmker
+    email: nvmker@gmail.com
+sources:
+  - https://hoobs.org
+  - https://hub.docker.com/r/hoobs/hoobs

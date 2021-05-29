@@ -1,1 +1,1 @@
-# helm-charts
+# Repository for Helm charts

@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    io.kompose.service: hoobs
+  name: hoobs
+spec:
+  ports:
+    - name: "80"
+      port: 80
+      targetPort: 80
+    - name: "51826"
+      port: 51826
+      targetPort: 51826
+  selector:
+    io.kompose.service: hoobs
+status:
+  loadBalancer: {}
